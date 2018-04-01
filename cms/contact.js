@@ -5,7 +5,7 @@
 	},
 	announcements: [
 		{
-			announcement_body: 'None'
+			announcement_body: '01Apr2018: Updated social media icons'
 		}
 	],
 	post_body: [
