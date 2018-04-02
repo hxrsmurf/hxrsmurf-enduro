@@ -1,0 +1,6 @@
+{{#quote_pages}}
+    {{#each this}}
+<a href="{{page_slug}}">{{page_slug}}</a>
+</br>
+    {{/each}}
+{{/quote_pages}}

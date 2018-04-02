@@ -1,10 +1,10 @@
 ({
 	category: [
 		{
-			title: 'Blank',
+			title: 'Template',
 			quote: [
 				{
-					body: 'Blank'
+					body: 'Template'
 				}
 			]
 		}
