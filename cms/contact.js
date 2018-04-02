@@ -1,8 +1,4 @@
 ({
-	page_header: {
-		header: 'hxrsmurf',
-		slogan: 'Let\'s Make It Personal'
-	},
 	announcements: [
 		{
 			announcement_body: '01Apr2018: Updated social media icons'

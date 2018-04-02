@@ -1,0 +1,66 @@
+{{>css}}
+{{>page_title}}
+{{>menu_bar}}
+{{>page_header}}
+
+<div id="page">
+<div id="content">
+
+
+{{#each category}}
+
+<div class="post">
+
+<h2 class="title"></h2>
+
+<div class="entry">
+<a name="{{title}}"/>
+
+{{#each quote}}
+
+<p>
+{{body}}
+</p>
+{{/each}}
+
+</div>
+</div>
+
+{{/each}}
+
+
+<table width="251" border="0">
+<tr>
+{{#each images}}
+
+<td width="119">
+<a href="{{image_url}}" target="_blank"> <img src="{{image}}"      width="112" height="113" /></a>
+</td>
+{{/each}}
+</tr>
+</table>
+
+<br>
+<br>
+</div>
+
+
+<div id="sidebar2">
+<h2>Sections</h2>
+<ul>
+
+{{#each category}}
+
+<li>
+<a href="/test#{{title}}">{{title}}</a>
+</li>
+
+{{/each}}
+
+
+</ul>
+</div>
+</div>
+
+
+{{>footer}}
